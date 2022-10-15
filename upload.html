@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+</head>
+<body>
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
+        <label for="fileToUpload">Drag File Here</label><input type="file" name="fileToUpload" id="fileToUpload"><br>
+        <input type="text" name="college" id="college" placeholder="College"><br>
+        <input type="text" name="course" id="course" placeholder="Course"><br>
+        <input type="text" name="subject" id="subject" placeholder="Subject"><br>
+        <input type="text" name="semester" id="semester" placeholder="Semester">
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>
